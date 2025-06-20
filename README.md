@@ -7,11 +7,14 @@ An end-to-end deep learning pipeline that takes an input image, generates a desc
 ## Project Highlights
 
 **CNN + RNN Architecture**: Uses DenseNet for feature extraction and GRU for caption generation.
+
 **Integrated Speech Synthesis**: Converts text to speech using `gTTS` or `pyttsx3`.
+
 **Dataset**: Trained and evaluated on the **Flickr8k** dataset.
+
 **End-to-End Pipeline**: From image → caption → audio.
 
-## Model Architecture
+
 
 ###  1. CNN for Feature Extraction
 **Model**: Pretrained **DenseNet201** from Keras (trained on ImageNet).
