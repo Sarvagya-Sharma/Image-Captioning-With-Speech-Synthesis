@@ -14,7 +14,7 @@ An end-to-end deep learning pipeline that takes an input image, generates a desc
 
 **End-to-End Pipeline**: From image → caption → audio.
 
-
+## Model Architecture
 
 ###  1. CNN for Feature Extraction
 **Model**: Pretrained **DenseNet201** from Keras (trained on ImageNet).
